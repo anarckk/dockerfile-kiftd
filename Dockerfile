@@ -6,5 +6,3 @@ WORKDIR /kiftd
 ENTRYPOINT ["java", "-jar", "kiftd-1.0.35-RELEASE.jar", "-start"]
 
 EXPOSE 8080
-VOLUME ["/kiftd/conf","/data"]
-CMD ["/start.sh"]
